@@ -8,7 +8,7 @@
 
   <title>Viateur Irasubiza | Frontend Developer</title>
 
-  <meta name="description" content="Portfolio of Viateur Irasubiza - Frontend Developer from Rwanda building modern web apps and systems.">
+  <meta name="description" content="Viateur Irasubiza - Frontend Developer from Rwanda building modern, fast and elegant web applications.">
 
   <style>
     * {
@@ -28,31 +28,18 @@
       position: fixed;
       width: 100%;
       top: 0;
-      padding: 15px 30px;
+      padding: 15px 40px;
       display: flex;
       justify-content: space-between;
       background: rgba(0,0,0,0.6);
       backdrop-filter: blur(10px);
-      z-index: 1000;
-    }
-
-    nav .logo {
-      font-weight: bold;
-      letter-spacing: 1px;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      margin-left: 15px;
+      margin-left: 20px;
       font-size: 14px;
-      padding: 8px 12px;
-      border-radius: 20px;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      background: #3b82f6;
     }
 
     header {
@@ -66,7 +53,7 @@
     }
 
     header h1 {
-      font-size: 52px;
+      font-size: 50px;
       font-weight: 600;
     }
 
@@ -86,7 +73,6 @@
       text-decoration: none;
       font-size: 14px;
       transition: 0.3s;
-      display: inline-block;
     }
 
     .btn:hover {
@@ -100,7 +86,7 @@
     }
 
     h2 {
-      font-size: 30px;
+      font-size: 28px;
       margin-bottom: 20px;
     }
 
@@ -116,25 +102,20 @@
       transform: translateY(-5px);
     }
 
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .skill {
-      padding: 10px 15px;
-      background: #1f2937;
-      border-radius: 20px;
-      font-size: 13px;
-    }
-
     footer {
       text-align: center;
       padding: 40px;
       color: #777;
       font-size: 14px;
     }
+    .logo {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #3b82f6, #22c55e, #f59e0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
   </style>
 </head>
 
@@ -146,7 +127,6 @@
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
-    <a href="#report">System</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
@@ -157,28 +137,21 @@
   <a class="btn" href="#projects">View My Work</a>
 </header>
 
-<!-- ABOUT -->
 <section id="about">
   <h2>About Me</h2>
   <div class="card">
-    I am a passionate frontend developer from Rwanda focused on building modern, fast and user-friendly web applications and systems.
+    I am a passionate frontend developer from Rwanda focused on building modern, fast and user-friendly websites.
   </div>
 </section>
 
-<!-- SKILLS -->
 <section id="skills">
   <h2>Skills</h2>
-  <div class="skills">
-    <div class="skill">HTML</div>
-    <div class="skill">CSS</div>
-    <div class="skill">JavaScript</div>
-    <div class="skill">Git</div>
-    <div class="skill">GitHub</div>
-    <div class="skill">UI Design</div>
-  </div>
+  <div class="card">HTML</div>
+  <div class="card">CSS</div>
+  <div class="card">JavaScript</div>
+  <div class="card">Git & GitHub</div>
 </section>
 
-<!-- PROJECTS -->
 <section id="projects">
   <h2>Projects</h2>
 
@@ -189,26 +162,15 @@
 
   <div class="card">
     <h3>Student Report System</h3>
-    <p>A system that helps teachers manage student marks, calculate averages, and generate reports automatically.</p>
+    <p>Web app for managing student records (if applicable).</p>
   </div>
 </section>
 
-<!-- SYSTEM EXPLANATION -->
-<section id="report">
-  <h2>How Student Report System Works</h2>
-
-  <div class="card">
-    The system allows teachers to enter student names, subjects, and marks. It automatically calculates total marks, averages, and grades. Then it generates a clean report for each student which can be printed or saved.
-  </div>
-</section>
-
-<!-- CONTACT -->
 <section id="contact">
   <h2>Contact</h2>
-
   <div class="card">
-    <p>📧 Email: <b>viateurirasubiza@gmail.com</b></p>
-    <p>💻 GitHub: github.com/viateurirasubiza-dotcom</p>
+    Email: viateur@example.com <br />
+    GitHub: github.com/viateurirasubiza-dotcom
   </div>
 </section>
 
@@ -217,7 +179,7 @@
 </footer>
 
 </body>
-</html>
+</html> 
 </style>
 </head>
 
