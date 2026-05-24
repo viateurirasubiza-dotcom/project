@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://viateurirasubiza-dotcom.github.io/project/sitemap.xml
